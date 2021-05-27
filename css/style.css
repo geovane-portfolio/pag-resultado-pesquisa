@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #000;
+}
+body {
+    display: flex;
+}
+header{
+    display: flex;
+}
+img {
+    height: 92;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
